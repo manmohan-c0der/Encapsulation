@@ -1,0 +1,111 @@
+What is Encapsulation? why it is called data hiding ?
+
+● Binding of data and corresponding methods into a single unit is called
+"Encapsulation".
+
+● If any java class follows data hiding and abstraction then such class is
+referred as "Encapsulated class".
+
+Encapsulation = Data Hiding + Data Abstraction.
+
+
+ans 2 
+
+We can achieve security.
+
+● Enhancement becomes easy.
+
+● Maintainability and modularisation becomes easy.
+
+● It provides flexibility to the user to use the system very easily.
+
+
+
+ans 3
+Setters
+
+Setter methods are used to set the value to the instance variables of the class.
+
+Syntax for setter method
+a. compulsory the method name should start with set.
+b. it should be public.
+c. return type should be void.
+d. compulsorily it should have some argument.
+
+Getters
+
+Getter methods are used to get the value from the instance variables of the class.
+
+Syntax for getter method
+a. compulsory the method name should start with get.
+b. it should be public.
+c. return type should not be void.
+d. compulsorily it should not have any argument.
+
+example -
+class gen{
+    private int id;
+    private String name;
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+}
+
+
+ans 4
+Shadowing Problem and this keyword
+
+● If both local variable and instance variable have the same name inside the
+method then it would result in a name-clash and jvm will always give
+preference for local variable. This approach is called the
+“Shadowing problem”.
+
+ans 5
+
+We can achieve security.
+
+● Enhancement becomes easy.
+
+● Maintainability and modularisation becomes easy.
+
+● It provides flexibility to the user to use the system very easily.
+
+
+ans 5
+
+Binding of data and corresponding methods into a single unit is called
+"Encapsulation".
+
+● If any java class follows data hiding and abstraction then such class is
+referred as "Encapsulated class".
+
+Encapsulation = Data Hiding + Data Abstraction.
+
+example -
+class gen2{
+    private int id;
+    private String name;
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+}
